@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="765ace04-c912-4d52-9c91-731fa4d022c5" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Python-Learn.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第二章/01.字面量与变量.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第二章/02.常见数据类型.py" afterDir="false" />
+    <list default="true" id="765ace04-c912-4d52-9c91-731fa4d022c5" name="更改" comment="完善代码">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/第二章/02.常见数据类型.py" beforeDir="false" afterPath="$PROJECT_DIR$/第二章/02.常见数据类型.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,61 +42,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.413695404099822" />
-      <entry key="MS500" value="2.425205114065868" />
-      <entry key="S2" value="3.881417614621464" />
-      <entry key="S5" value="7.376435251417412" />
-      <entry key="S10" value="10.834037144491932" />
-      <entry key="S30" value="16.801075140002418" />
-      <entry key="S60" value="21.77300529246606" />
-      <entry key="M2" value="30.693051358846308" />
-      <entry key="M5" value="55.00807809995794" />
-      <entry key="M10" value="90.66700751054734" />
-      <entry key="M15" value="121.45624753226188" />
-      <entry key="M30" value="180.9345240280852" />
-      <entry key="H1" value="231.2324464264944" />
-      <entry key="H2" value="264.52903634341135" />
-      <entry key="H4" value="283.76917559640833" />
-      <entry key="D1" value="301.31398887894886" />
-      <entry key="W1" value="304.4696856193658" />
+      <entry key="MS100" value="1.0000000000001759" />
+      <entry key="MS500" value="1.0028172011002299" />
+      <entry key="S2" value="1.2926847576871232" />
+      <entry key="S5" value="2.040386357056388" />
+      <entry key="S10" value="2.812620270101762" />
+      <entry key="S30" value="5.141372553510288" />
+      <entry key="S60" value="7.661357523995437" />
+      <entry key="M2" value="12.961476799683037" />
+      <entry key="M5" value="34.38817150756643" />
+      <entry key="M10" value="70.80121775660824" />
+      <entry key="M15" value="103.2757045359938" />
+      <entry key="M30" value="169.19895319054095" />
+      <entry key="H1" value="227.90101210838023" />
+      <entry key="H2" value="268.03028509929885" />
+      <entry key="H4" value="291.6312307430824" />
+      <entry key="D1" value="313.3982698737995" />
+      <entry key="W1" value="317.33733774355613" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
-      <entry key="S2" value="2.936053095474784E-106" />
-      <entry key="S5" value="6.124992511071552E-43" />
-      <entry key="S10" value="7.8262331367469105E-22" />
-      <entry key="S30" value="9.215472258461934E-8" />
-      <entry key="S60" value="3.0362177123767595E-4" />
-      <entry key="M2" value="0.018034541505532797" />
-      <entry key="M5" value="0.41015736777840134" />
-      <entry key="M10" value="2.126806853195487" />
-      <entry key="M15" value="4.018234114529311" />
-      <entry key="M30" value="7.884558211467287" />
-      <entry key="H1" value="11.187490131247731" />
-      <entry key="H2" value="13.366268930486953" />
-      <entry key="H4" value="14.62051305795265" />
-      <entry key="D1" value="15.760850562010093" />
-      <entry key="W1" value="15.965602263563948" />
+      <entry key="S2" value="5.802921716870961E-163" />
+      <entry key="S5" value="1.2748488153744398E-65" />
+      <entry key="S10" value="3.570502507175196E-33" />
+      <entry key="S30" value="1.5284214238063234E-11" />
+      <entry key="S60" value="3.910170273276352E-6" />
+      <entry key="M2" value="0.0020466165690759767" />
+      <entry key="M5" value="0.17176041049529467" />
+      <entry key="M10" value="1.3763038574184088" />
+      <entry key="M15" value="3.0062568766711855" />
+      <entry key="M30" value="6.819818069420452" />
+      <entry key="H1" value="10.404719531090727" />
+      <entry key="H2" value="12.89018205740973" />
+      <entry key="H4" value="14.357771625402906" />
+      <entry key="D1" value="15.713287472793887" />
+      <entry key="W1" value="15.958710346417694" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.3914143802871508" />
-      <entry key="MS500" value="2.416522824884677" />
-      <entry key="S2" value="3.87793330186327" />
-      <entry key="S5" value="7.372987910641098" />
-      <entry key="S10" value="10.826145326737839" />
-      <entry key="S30" value="16.762876429601345" />
-      <entry key="S60" value="21.730187157594337" />
-      <entry key="M2" value="30.668111130849258" />
-      <entry key="M5" value="55.36313177527902" />
-      <entry key="M10" value="92.7358066022611" />
-      <entry key="M15" value="125.4207305919844" />
-      <entry key="M30" value="188.7794298465031" />
-      <entry key="H1" value="242.39520257995392" />
-      <entry key="H2" value="277.88138959310913" />
-      <entry key="H4" value="298.38229374405836" />
-      <entry key="D1" value="317.07354146688823" />
-      <entry key="W1" value="320.4351007877526" />
+      <entry key="MS100" value="0.9659363289250168" />
+      <entry key="MS500" value="0.9958941112289819" />
+      <entry key="S2" value="1.2905263321844858" />
+      <entry key="S5" value="2.039049447476655" />
+      <entry key="S10" value="2.811689999072479" />
+      <entry key="S30" value="5.140734120508635" />
+      <entry key="S60" value="7.660326841535848" />
+      <entry key="M2" value="12.958332576251088" />
+      <entry key="M5" value="34.536705017993356" />
+      <entry key="M10" value="72.139902648133" />
+      <entry key="M15" value="106.24169221403865" />
+      <entry key="M30" value="175.9844453578177" />
+      <entry key="H1" value="238.28271398543473" />
+      <entry key="H2" value="280.9070399539078" />
+      <entry key="H4" value="305.98173675061054" />
+      <entry key="D1" value="329.110262688152" />
+      <entry key="W1" value="333.29586098961056" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -214,23 +208,25 @@
       <option name="presentableId" value="Default" />
       <updated>1784772845667</updated>
       <workItem from="1784772846521" duration="354000" />
-      <workItem from="1784773397457" duration="3670000" />
+      <workItem from="1784773397457" duration="4378000" />
     </task>
+    <task id="LOCAL-00001" summary="完善代码">
+      <option name="closed" value="true" />
+      <created>1784777128470</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1784777128470</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="完善代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Python_Learn$02_.coverage" NAME="02.常见数据类型 覆盖结果" MODIFIED="1784776939395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第二章" />
