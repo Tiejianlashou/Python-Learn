@@ -25,3 +25,11 @@ Hello:
      欢迎大家进入到Python课程的学习!
      大家记得好好学习哦 ~ 
 """ #三引号定义(多行字符串)
+
+print(s1)
+print(s2)
+print(s3)
+
+print(type(s1))
+print(type(s2))
+print(type(s3))
