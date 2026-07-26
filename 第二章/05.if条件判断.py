@@ -22,3 +22,153 @@ if id==ok_id and password==ok_password:
 if id!=ok_id or password!=ok_password:
     print("登录失败!")
     print("账号或密码错误!")
+
+
+# if...else...案例:结合前面学习的输入输出及if条件判断的知识,完成B站登录功能的实现(账号:18888888888,密码:000000)
+ok_id = '18888888888'
+ok_password = '000000'
+# 1.接受用户输入的账号和密码
+id = input("账号: ")
+password = input("密码: ")
+
+# 2.判断账号密码是否全部正确,如果都正确,则登录成功,进入B站首页
+if id==ok_id and password==ok_password:
+    print("登录成功~")
+    print("进入B站首页~")
+# 3.判断账号密码是否有错误的,如果有任何一个错误,则登录失败,提示错误信息
+else:
+     print("登录失败!")
+     print("账号或密码错误!")
+
+# 案例1: 根据用户输入的年份,判断这一年是闰年还是平年(非整百年份,且能被4整除的年份是闰年;整百年份(如1900-2000) 必须被400整除才是闰年)
+year = int(input("请输入你要判断的年份:"))
+if (year%4==0 and year%100!=0) or year%400==0:
+    print(f"{year}是闰年")
+else:
+    print(f"{year}是平年")
+
+
+#Practical
+#1.根据用户输入的数字,判断该数字是奇数还是偶数
+#注意:int接受字符串的时候,只能接受纯整数的字符串
+num = int(input("请输入您要判断的数:"))
+if num%2==0:
+    print(f"{num}是偶数")
+else:
+    print(f"{num}是奇数")
+
+#2.根据用户输入的年龄,判断该用户是否已经成年(>=18,成年;否则,未成年)
+age = int(input("请输入年龄:"))
+if age>=18:
+    print(f"{age}岁已经成年,欢迎来到大人的世界!")
+else:
+    print(f"{age}岁是未成年,要好好学习长大哦!")
+
+#3.根据用户输入的数字,判断该数字是正数还是负数(不考虑0)
+num = float(input("请输入您要判断的数字:"))
+if num>0:
+    print(f"{num}是正数")
+else :
+    print(f"{num}是负数")
+
+#4.根据用户输入的考试分数,判断该分数是否及格(大于等于60就是及格了)
+score = float(input("请输入考试分数:"))
+if score>=60:
+    print(f"及格,继续加油!")
+else :
+    print(f"不及格,再接再厉!")
+
+
+
+# if...elif...else 案例 : 根据用户输入的数字,判断数字是正数,还是负数,还是0
+num = int(input("请输入数字:"))
+if num>0:
+    print(f"{num}正数")
+elif num==0:
+    print(f"{num}是0")
+else :
+    print(f"{num}是负数")
+
+# 案例: 根据输入用户名\密码进行登录系统
+#用户名.密码为admin/666888 或 root/547527 或 zhangsan/123456,则输出登录成功,否则就提示用户名或密码错误
+id1 = "admin"
+password1 = 666888
+id2 = "root"
+password2 = 547527
+id3 = "zhangsan"
+password3 =123456
+
+id = input("请输入账号:")
+password = int(input("请输入密码:"))
+
+if id == id1 and password == password1:
+    print("登录成功!")
+elif id == id2 and password == password2:
+    print("登录成功!")
+elif id == id3 and password == password3:
+    print("登录成功!")
+else :
+    print("登录失败!用户名或密码错误!")
+
+
+Practical
+'''
+ 1.根据输入的考试成绩,判断成绩等级
+    大于等于85分为优秀
+    60-85分为及格
+    否则就是不及格
+'''
+#这里需要注意的是,字符串不能够做数值的比较,例如"9">"85"的,因为会按照第一个数字进行比较,'9' ASCII 码更大，直接判定 True，不会当成数字 9 和 85 比较
+score = int(input("请输入成绩:"))
+if score>=85:
+    print("恭喜!成绩优秀!")
+elif score>=60:
+    print("及格啦!再接再厉")
+else :
+    print("不及格!不要灰心哦~")
+
+'''
+2.购物折扣计算:根据输入的购物车的商品总额,以及如下的折扣规则,计算实际应付的金额
+    金额 >= 500: 8折
+    300 <=金额< 500:9折
+    100 <=金额< 300:95折
+    金额 <100:无折扣
+'''
+#这里需要注意的是,字符串与字符串不可以相乘,例如'4'*'4'是错误的,而'4'*4输出结果是4444
+total = float(input("请输入商品总额:"))
+if total >=500:
+    print(f"您需要支付{total*0.8}元")
+elif total >= 300:
+    print(f"您需要支付{total*0.9}元")
+elif total >= 100:
+    print(f"您需要支付{total*0.95}元")
+else :
+    print(f"您需要支付{total}元")
+
+'''
+案例 :三角形类型判断: 根据输入的三个边的边长(正整数),判定是等边三角形.等腰三角形.普通三角形,还是不能构成三角形
+    分析:
+        等边三角形:三条边相等
+        等腰三角形:存在两条边相等,并且满足这两条边相加大于第三条边
+        普通三角形:两条短的边相加大于另一条边(任意两条边相加大于第三条边)
+'''
+# 1.接受输入的三角形三个边的边长
+a = int(input("请输入第一条边的长度:"))
+b = int(input("请输入第二条边的长度:"))
+c = int(input("请输入第三条边的长度:"))
+
+# 2.判断三角形的类型 - pass 是一个空语句,起到一个语法占位的作用
+if a+b>c and a+c>b and b+c>a:
+    if a==b and b==c :
+        print(f"{a} {b} {c}这三条边可以构成等边三角形")
+    elif a==b or a==c or b==c:
+        print(f"{a} {b} {c}这三条边可以构成等腰三角形")
+    else:
+        print(f"{a} {b} {c}这三条边可以构成普通三角形")
+else:
+    print(f"{a} {b} {c}这三条边不能构成三角形!")
+
+'''
+案例 : 北京市居民年度用电电费计算: 根据输入的用电度数,计算电费
+    北京市居民电费采用阶梯电价计价方式,所谓阶梯电价是指按照用户消费的电量分段定价,用电价格随用电量增加
+'''
